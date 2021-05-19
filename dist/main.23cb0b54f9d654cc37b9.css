@@ -1,0 +1,1 @@
+.d-none{display:none!important}*,:after,:before{margin:0;padding:0;box-sizing:border-box}#main-area{display:flex;height:100%;width:100%;justify-content:center;align-items:center}.crossword-table{max-width:1000px}.crossword-table .row{display:flex;margin:5px 0}.crossword-table .row .col{width:30px;height:30px;border:1px solid #000;margin:0 2px;text-align:center}

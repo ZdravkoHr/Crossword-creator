@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+	</head>
+	<body>
+		<template id="modal-template">
+			<div class="overlay"></div>
+			<div class="modal-content"></div>
+		</template>
+		<template id="result-word-template">
+			<form>
+				<label for="result-word"
+					>Въведете думата, която искате да се получи</label
+				>
+				<input type="text" id="result-word" />
+				<button class="btn confirm">Потвърди</button>
+			</form>
+		</template>
+		<template id="all-words-template">
+			<form>
+				<label for="all-words"
+					>Въведете въпросите и отговорите към тях, всеки на нов ред, в следния
+					формат - въпрос: отговор</label
+				>
+				<textarea id="all-words"></textarea>
+				<button class="btn confirm">Потвърди</button>
+			</form>
+		</template>
+
+		<div id="main-area">
+			<div id="questions-area">
+				<template class="question-template">
+					<p class="question"><span class="bold"></span></p>
+				</template>
+			</div>
+		</div>
+	</body>
+</html>
